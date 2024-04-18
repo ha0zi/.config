@@ -37,6 +37,9 @@ exec --no-startup-id nm-applet
 # terminal Transparent background
 exec --no-startup-id picom
 
+# input fcitx5
+exec --no-startup-id fcitx5
+
 ## use gnome-keyring, https://askubuntu.com/questions/1287123/i3-gnome-keyring-issue
 exec --no-startup-id /usr/bin/gnome-keyring-daemon --start --components=ssh,secrets,pkcs11,intellij-idea-ultimate-edition
 

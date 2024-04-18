@@ -41,7 +41,10 @@ text_default = [
   ] },
 ]
 
-reader_default = [{ command = "evince", fork = true, silent = true }]
+reader_default = [
+  { command = "llpp", fork = true, silent = true },
+  { command = "evince", fork = true, silent = true }
+]
 
 libreoffice_default = [{ command = "libreoffice", fork = true, silent = true }]
 
