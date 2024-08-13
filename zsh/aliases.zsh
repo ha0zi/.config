@@ -20,6 +20,8 @@ alias kill-touid='xinput --disable '
 alias mountnas='bash /home/hz/.local/scripts/nas/mount-hz-nas-data'
 # mount nas-hz images_data dir to /mnt/images_data/
 alias mountni='bash /home/hz/.local/scripts/nas/mount-hz-images'
+# mount nas-hz notebook dir to /home/hz/Documents/note/
+alias mountnote='bash /home/hz/.local/scripts/note/mount-note'
 # rsync notebook to nas-hz
 alias sync-note='bash /home/hz/.local/scripts/nas/sync-local-note-nas'
 # rsync calibre to nas-hz
