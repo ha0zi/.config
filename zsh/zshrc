@@ -6,6 +6,8 @@ source ~/.config/zsh/fzf.zsh
 source ~/.config/zsh/keys.zsh
 source ~/.config/zsh/mappings.zsh
 source ~/.config/zsh/completion.zsh
+# nvm
+source /usr/share/nvm/init-nvm.sh
 
 if [ -f ~/.sconfi/zsh/zshrc ]; then
   source ~/.sconfig/zsh/zshrc

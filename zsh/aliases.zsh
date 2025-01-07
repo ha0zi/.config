@@ -26,6 +26,8 @@ alias mountnote='bash /home/hz/.local/scripts/note/mount-note'
 alias sync-note='bash /home/hz/.local/scripts/nas/sync-local-note-nas'
 # rsync calibre to nas-hz
 alias sync-calibre='bash /home/hz/.local/scripts/nas/sync-local-calibre-nas'
+# jianguoyun-note
+alias mount-jgy-note='bash /home/hz/.local/scripts/note/mount-jgy-note'
 
 ## xrandr
 # ipad4
@@ -39,3 +41,6 @@ alias n='neofetch'
 alias sKvm='sudo systemctl start libvirtd'
 alias sBlu='sudo systemctl start bluetooth'
 
+## navicat
+# clear navicat
+alias navicat_clear='bash /home/hz/.local/scripts/navicat/navicat_clear'

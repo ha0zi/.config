@@ -280,6 +280,7 @@ bar {
         position top
         #tray_output primary
         tray_output HDMI-1
+        #tray_output rdp0
         colors {
           statusline #000000
           background #F4ADD96B
