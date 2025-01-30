@@ -25,6 +25,7 @@ export XDG_CURRENT_DESKTOP=sway
 export HZ_NAS_IP=192.168.123.62
 #export HZ_NAS_IP=10.147.20.161
 
+
 ## util env
 ## me util env
 # apache-maven
@@ -39,7 +40,7 @@ export XDG_CONFIG_HOME=$HOME/.config
 export LOCALBIN=$XDG_CONFIG_HOME/bin
 export PATH=$PATH:$LOCALBIN
 export LOCALPROG=$HOME/prog
-export GOPATH=$HOME/go
+export GOPATH=$HOME/.go
 export PATH=$PATH:/Applications/Xcode.app/Contents/Developer/usr/bin/
 export PATH=$PATH:$HOME/.gem/ruby/2.6.0
 export PATH=$PATH:/usr/local/bin
